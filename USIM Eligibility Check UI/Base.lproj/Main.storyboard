@@ -157,13 +157,13 @@ With Banglalin, Bangladesh’s Fastest Mobile Network in full speed 4G: everythi
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b92-Jw-bzF">
-                                <rect key="frame" x="16" y="73" width="288" height="334"/>
+                                <rect key="frame" x="16" y="51" width="288" height="378"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B3z-HG-3pB">
-                                        <rect key="frame" x="84" y="34" width="120" height="120"/>
+                                        <rect key="frame" x="108" y="60" width="72" height="72"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tQT-D6-98A">
-                                                <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="72" height="72"/>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -172,29 +172,32 @@ With Banglalin, Bangladesh’s Fastest Mobile Network in full speed 4G: everythi
                                             <constraint firstItem="tQT-D6-98A" firstAttribute="top" secondItem="B3z-HG-3pB" secondAttribute="top" id="Vu8-NF-ogK"/>
                                             <constraint firstAttribute="bottom" secondItem="tQT-D6-98A" secondAttribute="bottom" id="dY6-5i-HYE"/>
                                             <constraint firstAttribute="trailing" secondItem="tQT-D6-98A" secondAttribute="trailing" id="daQ-S5-NOf"/>
-                                            <constraint firstAttribute="height" constant="120" id="p7Z-q9-VVq"/>
+                                            <constraint firstAttribute="height" constant="72" id="p7Z-q9-VVq"/>
                                             <constraint firstAttribute="width" secondItem="B3z-HG-3pB" secondAttribute="height" multiplier="1:1" id="tgp-va-4k1"/>
                                         </constraints>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Symoon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cAF-bb-Akk">
-                                        <rect key="frame" x="112.5" y="172" width="63" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You’are already enjoying Banglalink 4G internet with your 4G SIM" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cAF-bb-Akk">
+                                        <rect key="frame" x="35" y="156" width="218" height="41"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Zadid" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YVn-2J-PbZ">
-                                        <rect key="frame" x="122" y="209" width="44" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dial *5000# to get the best internet offers " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YVn-2J-PbZ" userLabel="Dial Label">
+                                        <rect key="frame" x="39" y="213" width="210" height="41"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HrB-UG-rog">
-                                        <rect key="frame" x="73" y="254" width="142" height="40"/>
+                                        <rect key="frame" x="73" y="278" width="142" height="40"/>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="5sS-t6-bra"/>
                                             <constraint firstAttribute="width" constant="142" id="cwF-wL-jzp"/>
                                         </constraints>
-                                        <state key="normal" title="Button"/>
+                                        <state key="normal" title="CLOSE">
+                                            <color key="titleColor" systemColor="systemOrangeColor"/>
+                                        </state>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -202,13 +205,13 @@ With Banglalin, Bangladesh’s Fastest Mobile Network in full speed 4G: everythi
                                     <constraint firstItem="HrB-UG-rog" firstAttribute="top" secondItem="YVn-2J-PbZ" secondAttribute="bottom" constant="24" id="4wX-lW-Ley"/>
                                     <constraint firstItem="B3z-HG-3pB" firstAttribute="centerX" secondItem="b92-Jw-bzF" secondAttribute="centerX" id="BRL-V4-cUT"/>
                                     <constraint firstItem="HrB-UG-rog" firstAttribute="centerX" secondItem="YVn-2J-PbZ" secondAttribute="centerX" id="FJE-qQ-36q"/>
-                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="YVn-2J-PbZ" secondAttribute="trailing" constant="8" id="LW0-9F-hTV"/>
-                                    <constraint firstItem="B3z-HG-3pB" firstAttribute="top" secondItem="b92-Jw-bzF" secondAttribute="top" constant="34" id="P8I-gQ-xjq"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="YVn-2J-PbZ" secondAttribute="trailing" constant="39" id="LW0-9F-hTV"/>
+                                    <constraint firstItem="B3z-HG-3pB" firstAttribute="top" secondItem="b92-Jw-bzF" secondAttribute="top" constant="60" id="P8I-gQ-xjq"/>
                                     <constraint firstItem="YVn-2J-PbZ" firstAttribute="centerX" secondItem="cAF-bb-Akk" secondAttribute="centerX" id="iyE-8O-jLT"/>
-                                    <constraint firstItem="cAF-bb-Akk" firstAttribute="top" secondItem="B3z-HG-3pB" secondAttribute="bottom" constant="18" id="lSl-Vz-7nE"/>
+                                    <constraint firstItem="cAF-bb-Akk" firstAttribute="top" secondItem="B3z-HG-3pB" secondAttribute="bottom" constant="24" id="lSl-Vz-7nE"/>
                                     <constraint firstItem="cAF-bb-Akk" firstAttribute="centerX" secondItem="B3z-HG-3pB" secondAttribute="centerX" id="nQM-hi-gPx"/>
-                                    <constraint firstAttribute="bottom" secondItem="HrB-UG-rog" secondAttribute="bottom" constant="40" id="oD3-db-R4k"/>
-                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="cAF-bb-Akk" secondAttribute="trailing" constant="16" id="sSv-jD-6ks"/>
+                                    <constraint firstAttribute="bottom" secondItem="HrB-UG-rog" secondAttribute="bottom" constant="60" id="oD3-db-R4k"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="cAF-bb-Akk" secondAttribute="trailing" constant="32" id="sSv-jD-6ks"/>
                                     <constraint firstItem="YVn-2J-PbZ" firstAttribute="top" secondItem="cAF-bb-Akk" secondAttribute="bottom" constant="16" id="shf-fx-cOd"/>
                                 </constraints>
                             </view>
@@ -225,7 +228,7 @@ With Banglalin, Bangladesh’s Fastest Mobile Network in full speed 4G: everythi
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JpA-Re-jrD" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1511" y="105"/>
+            <point key="canvasLocation" x="1588" y="119"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="TGu-W7-xWX">
@@ -236,7 +239,7 @@ With Banglalin, Bangladesh’s Fastest Mobile Network in full speed 4G: everythi
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UB9-PU-nax">
-                                <rect key="frame" x="16" y="73" width="288" height="334"/>
+                                <rect key="frame" x="16" y="58.5" width="288" height="363.5"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wfl-54-jjZ">
                                         <rect key="frame" x="84" y="34" width="120" height="120"/>
@@ -255,25 +258,25 @@ With Banglalin, Bangladesh’s Fastest Mobile Network in full speed 4G: everythi
                                             <constraint firstItem="EXa-OW-F1d" firstAttribute="leading" secondItem="wfl-54-jjZ" secondAttribute="leading" id="rvF-Q7-2uZ"/>
                                         </constraints>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Symoon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mfj-jl-bbd">
-                                        <rect key="frame" x="112.5" y="172" width="63" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Congratulations!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mfj-jl-bbd">
+                                        <rect key="frame" x="81" y="172" width="126" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Zadid" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B18-Kj-TES">
-                                        <rect key="frame" x="122" y="209" width="44" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You can replace your SIM to 4G for free. Also enjoy 8GB (4GB+4GB) - 7 days free with SIM Replacement." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B18-Kj-TES">
+                                        <rect key="frame" x="40.5" y="209" width="207" height="50.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vok-qd-paX">
-                                        <rect key="frame" x="73" y="254" width="142" height="40"/>
+                                        <rect key="frame" x="73" y="283.5" width="142" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="142" id="3LC-F0-dYG"/>
                                             <constraint firstAttribute="height" constant="40" id="d5Y-AK-1Iq"/>
                                         </constraints>
-                                        <state key="normal" title="Button"/>
+                                        <state key="normal" title="CLOSE"/>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -285,7 +288,7 @@ With Banglalin, Bangladesh’s Fastest Mobile Network in full speed 4G: everythi
                                     <constraint firstItem="wfl-54-jjZ" firstAttribute="centerX" secondItem="UB9-PU-nax" secondAttribute="centerX" id="9TN-sw-sV6"/>
                                     <constraint firstItem="B18-Kj-TES" firstAttribute="top" secondItem="mfj-jl-bbd" secondAttribute="bottom" constant="16" id="aqt-3h-fAV"/>
                                     <constraint firstItem="wfl-54-jjZ" firstAttribute="top" secondItem="UB9-PU-nax" secondAttribute="top" constant="34" id="b3K-ms-Y7x"/>
-                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="B18-Kj-TES" secondAttribute="trailing" constant="8" id="egt-1n-wtL"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="B18-Kj-TES" secondAttribute="trailing" constant="39" id="egt-1n-wtL"/>
                                     <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="mfj-jl-bbd" secondAttribute="trailing" constant="16" id="qMP-8e-ETQ"/>
                                     <constraint firstItem="mfj-jl-bbd" firstAttribute="top" secondItem="wfl-54-jjZ" secondAttribute="bottom" constant="18" id="rBE-6y-clp"/>
                                     <constraint firstItem="B18-Kj-TES" firstAttribute="centerX" secondItem="mfj-jl-bbd" secondAttribute="centerX" id="tFE-Ff-rIj"/>
@@ -304,165 +307,152 @@ With Banglalin, Bangladesh’s Fastest Mobile Network in full speed 4G: everythi
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h7e-6s-S1d" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2216" y="105"/>
+            <point key="canvasLocation" x="2436" y="119"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="rPv-X4-2Xo">
+        <scene sceneID="YS3-Xb-dOi">
             <objects>
-                <viewController id="sjF-Ib-dfH" customClass="ViewController" customModule="USIM_Eligibility_Check_UI" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="j8l-vM-1hq">
+                <viewController id="5Ma-dB-m1J" customClass="ViewController" customModule="USIM_Eligibility_Check_UI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DIn-L5-hs7">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="be3-Nu-qnF">
-                                <rect key="frame" x="16" y="73" width="288" height="334"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hIh-YT-ckx">
+                                <rect key="frame" x="16" y="71" width="288" height="338"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uAT-dR-zcM">
-                                        <rect key="frame" x="84" y="34" width="120" height="120"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rcN-y7-lkv">
+                                        <rect key="frame" x="108" y="60" width="72" height="72"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="V8D-8b-zS6">
-                                                <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LiY-yE-kGL">
+                                                <rect key="frame" x="0.0" y="0.0" width="72" height="72"/>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="V8D-8b-zS6" secondAttribute="trailing" id="VyS-7w-Fhg"/>
-                                            <constraint firstAttribute="bottom" secondItem="V8D-8b-zS6" secondAttribute="bottom" id="hj5-wL-FDZ"/>
-                                            <constraint firstItem="V8D-8b-zS6" firstAttribute="leading" secondItem="uAT-dR-zcM" secondAttribute="leading" id="iLa-gP-4Yv"/>
-                                            <constraint firstAttribute="height" constant="120" id="p4Z-bE-rpe"/>
-                                            <constraint firstItem="V8D-8b-zS6" firstAttribute="top" secondItem="uAT-dR-zcM" secondAttribute="top" id="uqv-bN-hFV"/>
-                                            <constraint firstAttribute="width" secondItem="uAT-dR-zcM" secondAttribute="height" multiplier="1:1" id="w2k-rk-T7x"/>
+                                            <constraint firstAttribute="bottom" secondItem="LiY-yE-kGL" secondAttribute="bottom" id="16V-k4-Mhx"/>
+                                            <constraint firstAttribute="trailing" secondItem="LiY-yE-kGL" secondAttribute="trailing" id="2AO-gw-M72"/>
+                                            <constraint firstAttribute="width" secondItem="rcN-y7-lkv" secondAttribute="height" multiplier="1:1" id="2jU-Ub-GUf"/>
+                                            <constraint firstItem="LiY-yE-kGL" firstAttribute="top" secondItem="rcN-y7-lkv" secondAttribute="top" id="FIS-ix-TOG"/>
+                                            <constraint firstAttribute="height" constant="72" id="Fml-l7-JAX"/>
+                                            <constraint firstItem="LiY-yE-kGL" firstAttribute="leading" secondItem="rcN-y7-lkv" secondAttribute="leading" id="ko9-hJ-2of"/>
                                         </constraints>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Symoon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0tP-5S-Qom">
-                                        <rect key="frame" x="112.5" y="172" width="63" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sorry, invalid request." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pxp-Qg-lom">
+                                        <rect key="frame" x="62" y="156" width="164" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Zadid" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mgr-g4-mNK">
-                                        <rect key="frame" x="122" y="209" width="44" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="For exciting internet offer dial *5000#" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r90-iM-1QD">
+                                        <rect key="frame" x="39" y="193" width="210" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eg3-Ey-rL5">
-                                        <rect key="frame" x="73" y="254" width="142" height="40"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EXL-a0-jZg">
+                                        <rect key="frame" x="73" y="238" width="142" height="40"/>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="142" id="7tu-h4-zrt"/>
-                                            <constraint firstAttribute="height" constant="40" id="sb2-vo-3oD"/>
+                                            <constraint firstAttribute="height" constant="40" id="VTR-EN-9Dx"/>
+                                            <constraint firstAttribute="width" constant="142" id="hMr-kz-xk0"/>
                                         </constraints>
-                                        <state key="normal" title="Button"/>
+                                        <state key="normal" title="CLOSE">
+                                            <color key="titleColor" systemColor="systemOrangeColor"/>
+                                        </state>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstItem="0tP-5S-Qom" firstAttribute="top" secondItem="uAT-dR-zcM" secondAttribute="bottom" constant="18" id="0F3-7B-PuM"/>
-                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Mgr-g4-mNK" secondAttribute="trailing" constant="8" id="7DV-jm-mgn"/>
-                                    <constraint firstItem="uAT-dR-zcM" firstAttribute="top" secondItem="be3-Nu-qnF" secondAttribute="top" constant="34" id="AEy-DY-Mhd"/>
-                                    <constraint firstItem="uAT-dR-zcM" firstAttribute="centerX" secondItem="be3-Nu-qnF" secondAttribute="centerX" id="KLu-gn-RdU"/>
-                                    <constraint firstAttribute="bottom" secondItem="Eg3-Ey-rL5" secondAttribute="bottom" constant="40" id="OUj-Zn-n5A"/>
-                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="0tP-5S-Qom" secondAttribute="trailing" constant="16" id="Oid-sP-HUV"/>
-                                    <constraint firstItem="Eg3-Ey-rL5" firstAttribute="centerX" secondItem="Mgr-g4-mNK" secondAttribute="centerX" id="gp8-pm-NIK"/>
-                                    <constraint firstItem="Mgr-g4-mNK" firstAttribute="centerX" secondItem="0tP-5S-Qom" secondAttribute="centerX" id="lj1-dN-zYi"/>
-                                    <constraint firstItem="Mgr-g4-mNK" firstAttribute="top" secondItem="0tP-5S-Qom" secondAttribute="bottom" constant="16" id="nyj-Ck-V5w"/>
-                                    <constraint firstItem="Eg3-Ey-rL5" firstAttribute="top" secondItem="Mgr-g4-mNK" secondAttribute="bottom" constant="24" id="vcO-dJ-X3d"/>
-                                    <constraint firstItem="0tP-5S-Qom" firstAttribute="centerX" secondItem="uAT-dR-zcM" secondAttribute="centerX" id="yBt-0o-I5Y"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="r90-iM-1QD" secondAttribute="trailing" constant="39" id="8PP-7B-cYe"/>
+                                    <constraint firstItem="EXL-a0-jZg" firstAttribute="centerX" secondItem="r90-iM-1QD" secondAttribute="centerX" id="AgU-ST-MeS"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="pxp-Qg-lom" secondAttribute="trailing" constant="32" id="ED8-Oy-wAp"/>
+                                    <constraint firstItem="rcN-y7-lkv" firstAttribute="top" secondItem="hIh-YT-ckx" secondAttribute="top" constant="60" id="GI7-YM-HlL"/>
+                                    <constraint firstAttribute="bottom" secondItem="EXL-a0-jZg" secondAttribute="bottom" constant="60" id="Iy2-i2-WE1"/>
+                                    <constraint firstItem="rcN-y7-lkv" firstAttribute="centerX" secondItem="hIh-YT-ckx" secondAttribute="centerX" id="MqL-ub-VxE"/>
+                                    <constraint firstItem="pxp-Qg-lom" firstAttribute="top" secondItem="rcN-y7-lkv" secondAttribute="bottom" constant="24" id="PEf-L5-cTV"/>
+                                    <constraint firstItem="r90-iM-1QD" firstAttribute="centerX" secondItem="pxp-Qg-lom" secondAttribute="centerX" id="R8n-QP-1Ys"/>
+                                    <constraint firstItem="pxp-Qg-lom" firstAttribute="centerX" secondItem="rcN-y7-lkv" secondAttribute="centerX" id="ddp-sy-m9m"/>
+                                    <constraint firstItem="r90-iM-1QD" firstAttribute="top" secondItem="pxp-Qg-lom" secondAttribute="bottom" constant="16" id="doN-3B-Nf4"/>
+                                    <constraint firstItem="EXL-a0-jZg" firstAttribute="top" secondItem="r90-iM-1QD" secondAttribute="bottom" constant="24" id="rbA-aP-vL2"/>
                                 </constraints>
                             </view>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="pjk-d8-ubQ"/>
+                        <viewLayoutGuide key="safeArea" id="oJW-A7-BIH"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="be3-Nu-qnF" firstAttribute="leading" secondItem="pjk-d8-ubQ" secondAttribute="leading" constant="16" id="2KE-5c-fcw"/>
-                            <constraint firstItem="be3-Nu-qnF" firstAttribute="centerY" secondItem="j8l-vM-1hq" secondAttribute="centerY" id="2XW-9G-BB4"/>
-                            <constraint firstItem="be3-Nu-qnF" firstAttribute="centerX" secondItem="j8l-vM-1hq" secondAttribute="centerX" id="Yy2-lo-0Vo"/>
-                            <constraint firstItem="pjk-d8-ubQ" firstAttribute="trailing" secondItem="be3-Nu-qnF" secondAttribute="trailing" constant="16" id="zwr-K1-bJG"/>
+                            <constraint firstItem="hIh-YT-ckx" firstAttribute="leading" secondItem="oJW-A7-BIH" secondAttribute="leading" constant="16" id="8Xa-D4-wYX"/>
+                            <constraint firstItem="oJW-A7-BIH" firstAttribute="trailing" secondItem="hIh-YT-ckx" secondAttribute="trailing" constant="16" id="DkB-IE-HdY"/>
+                            <constraint firstItem="hIh-YT-ckx" firstAttribute="centerX" secondItem="DIn-L5-hs7" secondAttribute="centerX" id="RwF-v0-Sc3"/>
+                            <constraint firstItem="hIh-YT-ckx" firstAttribute="centerY" secondItem="DIn-L5-hs7" secondAttribute="centerY" id="vkm-cI-e6H"/>
                         </constraints>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Hh7-hc-hux" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LwM-N0-kty" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1179" y="844"/>
+            <point key="canvasLocation" x="1209" y="901"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="upN-tk-yCw">
+        <scene sceneID="hzt-pD-eeo">
             <objects>
-                <viewController id="qdZ-CE-ZZq" customClass="ViewController" customModule="USIM_Eligibility_Check_UI" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="s6z-jp-RTo">
+                <viewController id="9sR-ZE-be8" customClass="ViewController" customModule="USIM_Eligibility_Check_UI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xaz-kw-NKU">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XZF-Az-Dgc">
-                                <rect key="frame" x="16" y="73" width="288" height="334"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gJw-xq-H0R">
+                                <rect key="frame" x="16" y="64.5" width="288" height="351.5"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eUn-hN-KNi">
-                                        <rect key="frame" x="84" y="34" width="120" height="120"/>
-                                        <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="M72-mO-2Bp">
-                                                <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
-                                            </imageView>
-                                        </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                        <constraints>
-                                            <constraint firstAttribute="bottom" secondItem="M72-mO-2Bp" secondAttribute="bottom" id="5dl-w3-ixo"/>
-                                            <constraint firstAttribute="height" constant="120" id="ACq-Wz-QdH"/>
-                                            <constraint firstItem="M72-mO-2Bp" firstAttribute="leading" secondItem="eUn-hN-KNi" secondAttribute="leading" id="KWH-mg-9hd"/>
-                                            <constraint firstAttribute="width" secondItem="eUn-hN-KNi" secondAttribute="height" multiplier="1:1" id="Nsd-s3-oO7"/>
-                                            <constraint firstAttribute="trailing" secondItem="M72-mO-2Bp" secondAttribute="trailing" id="bEW-dt-u5n"/>
-                                            <constraint firstItem="M72-mO-2Bp" firstAttribute="top" secondItem="eUn-hN-KNi" secondAttribute="top" id="je1-hn-Cl6"/>
-                                        </constraints>
-                                    </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Symoon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vda-Ud-bDx">
-                                        <rect key="frame" x="112.5" y="172" width="63" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You’are already enjoying Banglalink 4G internet with your 4G SIM" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s6s-CX-wcr">
+                                        <rect key="frame" x="34" y="144" width="220" height="38.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Zadid" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XSz-z3-RQL">
-                                        <rect key="frame" x="122" y="209" width="44" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="For exciting internet offer dial *5000#" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ByJ-Mv-JMt">
+                                        <rect key="frame" x="39" y="198.5" width="210" height="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TSR-T1-m66">
-                                        <rect key="frame" x="73" y="254" width="142" height="40"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iB6-oU-Cps">
+                                        <rect key="frame" x="73" y="239.5" width="142" height="40"/>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="40" id="IZ7-os-hBG"/>
-                                            <constraint firstAttribute="width" constant="142" id="leD-Kg-SuJ"/>
+                                            <constraint firstAttribute="height" constant="40" id="5nD-EZ-Zfn"/>
+                                            <constraint firstAttribute="width" constant="142" id="GQ1-gj-JBg"/>
                                         </constraints>
-                                        <state key="normal" title="Button"/>
+                                        <state key="normal" title="CLOSE">
+                                            <color key="titleColor" systemColor="systemOrangeColor"/>
+                                        </state>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstItem="Vda-Ud-bDx" firstAttribute="top" secondItem="eUn-hN-KNi" secondAttribute="bottom" constant="18" id="1Qg-sq-gUY"/>
-                                    <constraint firstItem="Vda-Ud-bDx" firstAttribute="centerX" secondItem="eUn-hN-KNi" secondAttribute="centerX" id="EQG-ab-pFk"/>
-                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Vda-Ud-bDx" secondAttribute="trailing" constant="16" id="Ew3-dm-BNM"/>
-                                    <constraint firstItem="TSR-T1-m66" firstAttribute="centerX" secondItem="XSz-z3-RQL" secondAttribute="centerX" id="QRM-Bo-qOU"/>
-                                    <constraint firstAttribute="bottom" secondItem="TSR-T1-m66" secondAttribute="bottom" constant="40" id="RY5-sG-aXO"/>
-                                    <constraint firstItem="eUn-hN-KNi" firstAttribute="centerX" secondItem="XZF-Az-Dgc" secondAttribute="centerX" id="Xei-c8-exU"/>
-                                    <constraint firstItem="XSz-z3-RQL" firstAttribute="top" secondItem="Vda-Ud-bDx" secondAttribute="bottom" constant="16" id="Xmh-09-ucq"/>
-                                    <constraint firstItem="eUn-hN-KNi" firstAttribute="top" secondItem="XZF-Az-Dgc" secondAttribute="top" constant="34" id="ZI2-Mi-Xoi"/>
-                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="XSz-z3-RQL" secondAttribute="trailing" constant="8" id="hhE-HR-36K"/>
-                                    <constraint firstItem="TSR-T1-m66" firstAttribute="top" secondItem="XSz-z3-RQL" secondAttribute="bottom" constant="24" id="iy3-YS-mvc"/>
-                                    <constraint firstItem="XSz-z3-RQL" firstAttribute="centerX" secondItem="Vda-Ud-bDx" secondAttribute="centerX" id="rKl-WU-9zd"/>
+                                    <constraint firstItem="s6s-CX-wcr" firstAttribute="centerX" secondItem="gJw-xq-H0R" secondAttribute="centerX" id="8EO-SN-XKF"/>
+                                    <constraint firstItem="ByJ-Mv-JMt" firstAttribute="top" secondItem="s6s-CX-wcr" secondAttribute="bottom" constant="16" id="G0F-BX-Y23"/>
+                                    <constraint firstAttribute="trailing" secondItem="ByJ-Mv-JMt" secondAttribute="trailing" constant="39" id="PJE-pP-cp5"/>
+                                    <constraint firstAttribute="bottom" secondItem="iB6-oU-Cps" secondAttribute="bottom" constant="72" id="cDO-2j-3Fy"/>
+                                    <constraint firstItem="iB6-oU-Cps" firstAttribute="top" secondItem="ByJ-Mv-JMt" secondAttribute="bottom" constant="24" id="ch0-d3-zVQ"/>
+                                    <constraint firstItem="s6s-CX-wcr" firstAttribute="top" secondItem="gJw-xq-H0R" secondAttribute="top" constant="144" id="n9q-Ae-0ny"/>
+                                    <constraint firstItem="ByJ-Mv-JMt" firstAttribute="centerX" secondItem="s6s-CX-wcr" secondAttribute="centerX" id="nza-C0-iJK"/>
+                                    <constraint firstItem="iB6-oU-Cps" firstAttribute="centerX" secondItem="ByJ-Mv-JMt" secondAttribute="centerX" id="sJL-nJ-xWT"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="s6s-CX-wcr" secondAttribute="trailing" constant="32" id="uSa-8d-ImG"/>
                                 </constraints>
                             </view>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="z7I-4J-CAZ"/>
+                        <viewLayoutGuide key="safeArea" id="sPo-xA-y4B"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="XZF-Az-Dgc" firstAttribute="centerY" secondItem="s6z-jp-RTo" secondAttribute="centerY" id="ONh-Md-5wU"/>
-                            <constraint firstItem="XZF-Az-Dgc" firstAttribute="leading" secondItem="z7I-4J-CAZ" secondAttribute="leading" constant="16" id="YYy-4M-xZ5"/>
-                            <constraint firstItem="XZF-Az-Dgc" firstAttribute="centerX" secondItem="s6z-jp-RTo" secondAttribute="centerX" id="Yw1-08-mAt"/>
-                            <constraint firstItem="z7I-4J-CAZ" firstAttribute="trailing" secondItem="XZF-Az-Dgc" secondAttribute="trailing" constant="16" id="jYa-wJ-c1W"/>
+                            <constraint firstItem="gJw-xq-H0R" firstAttribute="leading" secondItem="sPo-xA-y4B" secondAttribute="leading" constant="16" id="1kN-FN-iqn"/>
+                            <constraint firstItem="gJw-xq-H0R" firstAttribute="centerX" secondItem="xaz-kw-NKU" secondAttribute="centerX" id="4on-Dt-Ofc"/>
+                            <constraint firstItem="gJw-xq-H0R" firstAttribute="centerY" secondItem="xaz-kw-NKU" secondAttribute="centerY" id="Ubv-AJ-BxB"/>
+                            <constraint firstItem="sPo-xA-y4B" firstAttribute="trailing" secondItem="gJw-xq-H0R" secondAttribute="trailing" constant="16" id="YSk-kx-41j"/>
                         </constraints>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="elV-FF-sa6" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WBk-W1-DDh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1956" y="844"/>
+            <point key="canvasLocation" x="2211" y="901"/>
         </scene>
     </scenes>
     <resources>
