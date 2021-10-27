@@ -39,33 +39,33 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KSd-IV-zZ2">
-                                                <rect key="frame" x="16" y="172" width="288" height="387"/>
+                                                <rect key="frame" x="16" y="172" width="288" height="359.5"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ycP-tM-TLi" userLabel="l">
-                                                        <rect key="frame" x="7" y="16" width="274" height="142.5"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ycP-tM-TLi" userLabel="Description Label">
+                                                        <rect key="frame" x="9.5" y="16" width="269.5" height="115"/>
                                                         <string key="text">Banglalink is now the fastest mobile network in Bangladesh having won the Ookla Speedtest Awaed.
 With Banglalin, Bangladesh’s Fastest Mobile Network in full speed 4G: everything is truly at full speed.</string>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eTM-T4-ON3">
-                                                        <rect key="frame" x="16" y="174.5" width="256" height="1"/>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eTM-T4-ON3" userLabel="LineView">
+                                                        <rect key="frame" x="16" y="147" width="256" height="1"/>
                                                         <color key="backgroundColor" systemColor="systemGrayColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="1" id="NAv-ak-bLM"/>
                                                         </constraints>
                                                     </view>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check your 4G USIM eligibility" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L5B-Q5-gcQ">
-                                                        <rect key="frame" x="16" y="191.5" width="219.5" height="19.5"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check your 4G USIM eligibility" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L5B-Q5-gcQ" userLabel="Check USIM Eligibility Label">
+                                                        <rect key="frame" x="16" y="164" width="219.5" height="19.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KJ8-92-zRD">
-                                                        <rect key="frame" x="16" y="227" width="256" height="48"/>
+                                                        <rect key="frame" x="16" y="199.5" width="256" height="48"/>
                                                         <subviews>
-                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Mobile Number e.g. 019xxxxxxxx" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oiu-TX-trD">
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Mobile Number e.g. 019xxxxxxxx" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oiu-TX-trD" userLabel="Mobile Number">
                                                                 <rect key="frame" x="16" y="0.0" width="240" height="48"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                 <textInputTraits key="textInputTraits"/>
@@ -80,15 +80,15 @@ With Banglalin, Bangladesh’s Fastest Mobile Network in full speed 4G: everythi
                                                             <constraint firstAttribute="height" constant="48" id="lDf-Tl-DJH"/>
                                                         </constraints>
                                                     </view>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8wl-Oy-w8k">
-                                                        <rect key="frame" x="16" y="299" width="126" height="40"/>
-                                                        <color key="backgroundColor" systemColor="linkColor"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8wl-Oy-w8k" userLabel="Check">
+                                                        <rect key="frame" x="16" y="271.5" width="126" height="40"/>
+                                                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="40" id="Zmv-6g-rSI"/>
                                                             <constraint firstAttribute="width" constant="126" id="x3W-Db-mgW"/>
                                                         </constraints>
                                                         <state key="normal" title="CHECK">
-                                                            <color key="titleColor" systemColor="systemOrangeColor"/>
+                                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
                                                     </button>
                                                 </subviews>
@@ -157,12 +157,12 @@ With Banglalin, Bangladesh’s Fastest Mobile Network in full speed 4G: everythi
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b92-Jw-bzF">
-                                <rect key="frame" x="16" y="51" width="288" height="378"/>
+                                <rect key="frame" x="16" y="52.5" width="288" height="375.5"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B3z-HG-3pB">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B3z-HG-3pB" userLabel="Icon View">
                                         <rect key="frame" x="108" y="60" width="72" height="72"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tQT-D6-98A">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tQT-D6-98A" userLabel="Error_Icon">
                                                 <rect key="frame" x="0.0" y="0.0" width="72" height="72"/>
                                             </imageView>
                                         </subviews>
@@ -176,27 +176,27 @@ With Banglalin, Bangladesh’s Fastest Mobile Network in full speed 4G: everythi
                                             <constraint firstAttribute="width" secondItem="B3z-HG-3pB" secondAttribute="height" multiplier="1:1" id="tgp-va-4k1"/>
                                         </constraints>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You’are already enjoying Banglalink 4G internet with your 4G SIM" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cAF-bb-Akk">
-                                        <rect key="frame" x="35" y="156" width="218" height="41"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You’are already enjoying Banglalink 4G internet with your 4G SIM" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cAF-bb-Akk" userLabel="Description Label">
+                                        <rect key="frame" x="34" y="156" width="220" height="38.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dial *5000# to get the best internet offers " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YVn-2J-PbZ" userLabel="Dial Label">
-                                        <rect key="frame" x="39" y="213" width="210" height="41"/>
+                                        <rect key="frame" x="39" y="210.5" width="210" height="41"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HrB-UG-rog">
-                                        <rect key="frame" x="73" y="278" width="142" height="40"/>
-                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HrB-UG-rog" userLabel="Close Button">
+                                        <rect key="frame" x="73" y="275.5" width="142" height="40"/>
+                                        <color key="backgroundColor" systemColor="placeholderTextColor"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="5sS-t6-bra"/>
                                             <constraint firstAttribute="width" constant="142" id="cwF-wL-jzp"/>
                                         </constraints>
                                         <state key="normal" title="CLOSE">
-                                            <color key="titleColor" systemColor="systemOrangeColor"/>
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                     </button>
                                 </subviews>
@@ -239,12 +239,12 @@ With Banglalin, Bangladesh’s Fastest Mobile Network in full speed 4G: everythi
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UB9-PU-nax">
-                                <rect key="frame" x="16" y="58.5" width="288" height="363.5"/>
+                                <rect key="frame" x="16" y="59" width="288" height="362.5"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wfl-54-jjZ">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wfl-54-jjZ" userLabel="Icon View">
                                         <rect key="frame" x="84" y="34" width="120" height="120"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EXa-OW-F1d">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EXa-OW-F1d" userLabel="Sucessful_Icon">
                                                 <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
                                             </imageView>
                                         </subviews>
@@ -258,25 +258,28 @@ With Banglalin, Bangladesh’s Fastest Mobile Network in full speed 4G: everythi
                                             <constraint firstItem="EXa-OW-F1d" firstAttribute="leading" secondItem="wfl-54-jjZ" secondAttribute="leading" id="rvF-Q7-2uZ"/>
                                         </constraints>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Congratulations!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mfj-jl-bbd">
-                                        <rect key="frame" x="81" y="172" width="126" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Congratulations!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mfj-jl-bbd" userLabel="Congratulations Label">
+                                        <rect key="frame" x="84" y="172" width="120" height="20"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You can replace your SIM to 4G for free. Also enjoy 8GB (4GB+4GB) - 7 days free with SIM Replacement." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B18-Kj-TES">
-                                        <rect key="frame" x="40.5" y="209" width="207" height="50.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You can replace your SIM to 4G for free. Also enjoy 8GB (4GB+4GB) - 7 days free with SIM Replacement." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B18-Kj-TES" userLabel="Description Label">
+                                        <rect key="frame" x="40.5" y="208" width="207" height="50.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vok-qd-paX">
-                                        <rect key="frame" x="73" y="283.5" width="142" height="40"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vok-qd-paX" userLabel="Close Button">
+                                        <rect key="frame" x="73" y="282.5" width="142" height="40"/>
+                                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="142" id="3LC-F0-dYG"/>
                                             <constraint firstAttribute="height" constant="40" id="d5Y-AK-1Iq"/>
                                         </constraints>
-                                        <state key="normal" title="CLOSE"/>
+                                        <state key="normal" title="CLOSE">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -320,10 +323,10 @@ With Banglalin, Bangladesh’s Fastest Mobile Network in full speed 4G: everythi
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hIh-YT-ckx">
                                 <rect key="frame" x="16" y="71" width="288" height="338"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rcN-y7-lkv">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rcN-y7-lkv" userLabel="Icon View">
                                         <rect key="frame" x="108" y="60" width="72" height="72"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LiY-yE-kGL">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LiY-yE-kGL" userLabel="Error_Icon">
                                                 <rect key="frame" x="0.0" y="0.0" width="72" height="72"/>
                                             </imageView>
                                         </subviews>
@@ -337,27 +340,27 @@ With Banglalin, Bangladesh’s Fastest Mobile Network in full speed 4G: everythi
                                             <constraint firstItem="LiY-yE-kGL" firstAttribute="leading" secondItem="rcN-y7-lkv" secondAttribute="leading" id="ko9-hJ-2of"/>
                                         </constraints>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sorry, invalid request." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pxp-Qg-lom">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sorry, invalid request." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pxp-Qg-lom" userLabel="Invalid Label">
                                         <rect key="frame" x="62" y="156" width="164" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="For exciting internet offer dial *5000#" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r90-iM-1QD">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="For exciting internet offer dial *5000#" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r90-iM-1QD" userLabel="Dial Offer Label">
                                         <rect key="frame" x="39" y="193" width="210" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EXL-a0-jZg">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EXL-a0-jZg" userLabel="Close Button">
                                         <rect key="frame" x="73" y="238" width="142" height="40"/>
-                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="VTR-EN-9Dx"/>
                                             <constraint firstAttribute="width" constant="142" id="hMr-kz-xk0"/>
                                         </constraints>
                                         <state key="normal" title="CLOSE">
-                                            <color key="titleColor" systemColor="systemOrangeColor"/>
+                                            <color key="titleColor" systemColor="labelColor"/>
                                         </state>
                                     </button>
                                 </subviews>
@@ -402,19 +405,19 @@ With Banglalin, Bangladesh’s Fastest Mobile Network in full speed 4G: everythi
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gJw-xq-H0R">
                                 <rect key="frame" x="16" y="64.5" width="288" height="351.5"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You’are already enjoying Banglalink 4G internet with your 4G SIM" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s6s-CX-wcr">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You’are already enjoying Banglalink 4G internet with your 4G SIM" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s6s-CX-wcr" userLabel="Description Label">
                                         <rect key="frame" x="34" y="144" width="220" height="38.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="For exciting internet offer dial *5000#" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ByJ-Mv-JMt">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="For exciting internet offer dial *5000#" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ByJ-Mv-JMt" userLabel="Dial Offer Label">
                                         <rect key="frame" x="39" y="198.5" width="210" height="17"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iB6-oU-Cps">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iB6-oU-Cps" userLabel="Close Button">
                                         <rect key="frame" x="73" y="239.5" width="142" height="40"/>
                                         <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -422,7 +425,7 @@ With Banglalin, Bangladesh’s Fastest Mobile Network in full speed 4G: everythi
                                             <constraint firstAttribute="width" constant="142" id="GQ1-gj-JBg"/>
                                         </constraints>
                                         <state key="normal" title="CLOSE">
-                                            <color key="titleColor" systemColor="systemOrangeColor"/>
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                     </button>
                                 </subviews>
@@ -457,17 +460,20 @@ With Banglalin, Bangladesh’s Fastest Mobile Network in full speed 4G: everythi
     </scenes>
     <resources>
         <image name="USIM Banner" width="328" height="140"/>
-        <systemColor name="linkColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="placeholderTextColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGrayColor">
             <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
